@@ -1,0 +1,37 @@
+A10-STMS Phase 1R2C High-Sample Confirmation Report
+==============================================================================
+
+Monte Carlo samples per stress/mode/candidate: 64
+Manageable sample count per mode/candidate: 448
+Frontier sample count per mode/candidate: 64
+Harsh sample count per mode/candidate: 64
+
+Classification table:
+ rad_scale  transport_scale  storage_scale best_a10_mode                           regime  best_manage_failure  best_manage_CVaR95  best_manage_unsafe  best_manage_Y  best_manage_Tc95  best_frontier_failure  best_frontier_CVaR95  best_frontier_unsafe  best_frontier_Y  best_harsh_failure  best_harsh_CVaR95  best_harsh_unsafe  best_harsh_Y  no_control_manage_failure  pump_radiator_manage_failure  pump_radiator_manage_CVaR95  pump_radiator_manage_unsafe  pump_radiator_manage_Y
+      24.0             12.0            1.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.071429            0.004465            0.009319       0.949388          0.935082                 0.4375              0.049771              0.058411         0.923658                 1.0           0.354383           0.245039      0.900455                        1.0                      0.332589                     0.346496                     0.110685                     1.0
+      24.0             12.0            2.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.058036            0.002667            0.006851       0.951105          0.929668                 0.4375              0.014845              0.058932         0.923896                 1.0           0.370977           0.231042      0.890261                        1.0                      0.330357                     0.338054                     0.108560                     1.0
+      24.0             12.0            4.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.044643            0.001355            0.004247       0.948675          0.923482                 0.3125              0.015555              0.032083         0.909335                 1.0           0.199720           0.185651      0.850794                        1.0                      0.323661                     0.317042                     0.100722                     1.0
+
+Status: PASS-CONFIRMED-MISSION-FEASIBLE-SEPARATION
+
+Interpretation:
+  The Phase 1R2 separation result survived higher-sample confirmation.
+  A10-Hybrid-v2 preserves the manageable-stress mission condition in a
+  nontrivial resource regime where No Control fails and Pump+Radiator
+  remains worse by failure rate or tail-risk metrics.
+
+A10-Hybrid-v2 failure-reason triage:
+ rad_scale  transport_scale  storage_scale  manageable_failure  manageable_fail_Tc  manageable_fail_Tp  manageable_fail_Tr  manageable_fail_G  manageable_fail_Y  frontier_failure  frontier_fail_Tc  frontier_fail_Tp  frontier_fail_Tr  frontier_fail_G  frontier_fail_Y  harsh_failure  harsh_fail_Tc  harsh_fail_Tp  harsh_fail_Tr  harsh_fail_G  harsh_fail_Y
+      24.0             12.0            1.0            0.071429            0.071429            0.004464                 0.0                0.0                0.0            0.4375            0.4375          0.078125               0.0              0.0              0.0            1.0            1.0       1.000000            0.0           0.0           0.0
+      24.0             12.0            2.0            0.058036            0.058036            0.000000                 0.0                0.0                0.0            0.4375            0.4375          0.015625               0.0              0.0              0.0            1.0            1.0       0.953125            0.0           0.0           0.0
+      24.0             12.0            4.0            0.044643            0.044643            0.000000                 0.0                0.0                0.0            0.3125            0.3125          0.015625               0.0              0.0              0.0            1.0            1.0       0.968750            0.0           0.0           0.0
+
+Claim boundary:
+  This confirmation remains a reduced nondimensional surrogate result.
+  It does not imply hardware readiness, real spacecraft validation,
+  or superiority over all existing spacecraft thermal-control architectures.
+
+Next step:
+  If PASS-CONFIRMED, proceed to Phase 2 around the best confirmed candidate.
+  Phase 2 should test ablations, delayed sensors, actuator degradation,
+  and out-of-sample stress windows.

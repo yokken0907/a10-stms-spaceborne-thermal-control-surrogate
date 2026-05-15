@@ -1,0 +1,72 @@
+A10-STMS Phase 2E Authority-Limited Retuning Report
+==============================================================================
+Monte Carlo samples per stress/mode/condition: 32
+Candidate resource point: rad_scale=24.0, transport_scale=12.0, storage_scale=4.0
+
+Manageable family / baseline:
+condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+ baseline    manageable     a10_v4_safe 224      0.031250  0.000047              0.003051      0.964707    0.991673      0.031250      0.000000          0.0
+ baseline    manageable a10_v4_balanced 224      0.044643  0.000365              0.004669      0.964803    0.991487      0.044643      0.004464          0.0
+ baseline    manageable   a10_robust_v3 224      0.053571  0.002498              0.005324      0.955872    1.001958      0.053571      0.000000          0.0
+ baseline    manageable   pump_radiator 224      0.325893  0.943606              0.099892      1.000000    1.364298      0.325893      0.308036          0.0
+
+Manageable family / sensor_delay_0p5:
+       condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+sensor_delay_0p5    manageable     a10_v4_safe 224      0.022321  0.000001              0.001079      0.928990    0.977225      0.022321      0.000000          0.0
+sensor_delay_0p5    manageable   a10_robust_v3 224      0.040179  0.000179              0.004282      0.928619    0.984240      0.040179      0.004464          0.0
+sensor_delay_0p5    manageable a10_v4_balanced 224      0.044643  0.000223              0.005238      0.933709    0.987611      0.044643      0.004464          0.0
+sensor_delay_0p5    manageable   pump_radiator 224      0.727679  1.211722              0.109479      1.000000    1.413250      0.727679      0.308036          0.0
+
+Manageable family / sensor_delay_1p0:
+       condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+sensor_delay_1p0    manageable a10_v4_balanced 224      0.008929  0.000004              0.000911      0.898742    0.951084      0.008929      0.000000          0.0
+sensor_delay_1p0    manageable   a10_robust_v3 224      0.013393  0.000008              0.000986      0.896441    0.968665      0.013393      0.000000          0.0
+sensor_delay_1p0    manageable     a10_v4_safe 224      0.022321  0.000016              0.001656      0.887552    0.949333      0.022321      0.000000          0.0
+sensor_delay_1p0    manageable   pump_radiator 224      1.000000  1.136453              0.151283      1.000000    1.408564      1.000000      0.544643          0.0
+
+Manageable family / actuator_0p8:
+   condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+actuator_0p8    manageable     a10_v4_safe 224      0.084821  0.008999              0.010182      0.895611    1.028617      0.084821      0.000000          0.0
+actuator_0p8    manageable a10_v4_balanced 224      0.102679  0.011413              0.012552      0.915506    1.031156      0.102679      0.000000          0.0
+actuator_0p8    manageable   a10_robust_v3 224      0.156250  0.037175              0.021016      0.929135    1.069589      0.156250      0.017857          0.0
+actuator_0p8    manageable   pump_radiator 224      0.410714  1.579372              0.197188      1.000000    1.518674      0.410714      0.357143          0.0
+
+Manageable family / actuator_0p6:
+   condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+actuator_0p6    manageable     a10_v4_safe 224      0.218750  0.060507              0.025193      0.820892    1.094786      0.187500      0.013393     0.107143
+actuator_0p6    manageable a10_v4_balanced 224      0.241071  0.080364              0.033605      0.859826    1.127004      0.241071      0.017857     0.000000
+actuator_0p6    manageable   a10_robust_v3 224      0.258929  0.118565              0.037493      0.900848    1.150135      0.258929      0.044643     0.000000
+actuator_0p6    manageable   pump_radiator 224      0.691964  2.436143              0.496722      1.000000    1.654543      0.691964      0.433036     0.000000
+
+Out-of-sample family / baseline:
+condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+ baseline out_of_sample     a10_v4_safe 160       0.06875  0.001404              0.006667      0.943630    1.010980       0.06875          0.00          0.0
+ baseline out_of_sample a10_v4_balanced 160       0.10625  0.003826              0.010411      0.940794    1.019338       0.10625          0.00          0.0
+ baseline out_of_sample   a10_robust_v3 160       0.10625  0.005470              0.010901      0.931023    1.020673       0.10625          0.00          0.0
+ baseline out_of_sample   pump_radiator 160       0.99375  1.223330              0.396042      1.000000    1.411167       0.99375          0.95          0.0
+
+Best manageable candidate by condition:
+       condition stress_family            mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+        baseline    manageable     a10_v4_safe 224      0.031250  0.000047              0.003051      0.964707    0.991673      0.031250      0.000000     0.000000
+sensor_delay_0p5    manageable     a10_v4_safe 224      0.022321  0.000001              0.001079      0.928990    0.977225      0.022321      0.000000     0.000000
+sensor_delay_1p0    manageable a10_v4_balanced 224      0.008929  0.000004              0.000911      0.898742    0.951084      0.008929      0.000000     0.000000
+    actuator_0p8    manageable     a10_v4_safe 224      0.084821  0.008999              0.010182      0.895611    1.028617      0.084821      0.000000     0.000000
+    actuator_0p6    manageable     a10_v4_safe 224      0.218750  0.060507              0.025193      0.820892    1.094786      0.187500      0.013393     0.107143
+
+Predeclared Phase 2E checks:
+  baseline_pass: True
+  delay05_pass: True
+  delay10_pass: True
+  actuator_0p8_pass: True
+  actuator_0p6_soft_pass: True
+  out_of_sample_damage_pass: True
+
+Status: PASS-PHASE2E-DELAY-DEGRADE-ROBUSTNESS
+
+Claim boundary:
+  This remains a reduced nondimensional surrogate audit.
+  It supports only toy-model delay/degradation robustness, not hardware validation.
+
+Next step:
+  If PASS-PHASE2E, close Phase 2 and move to Phase 3 synthesis.
+  If not, retain Phase 2D's partial robustness claim and do not overstate actuator-degraded performance.

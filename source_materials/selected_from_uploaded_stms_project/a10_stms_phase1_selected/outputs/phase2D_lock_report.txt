@@ -1,0 +1,76 @@
+A10-STMS Phase 2D Delay/Degradation Redesign Report
+==============================================================================
+
+Monte Carlo samples per stress/mode/condition: 32
+Candidate resource point: rad_scale=24.0, transport_scale=12.0, storage_scale=4.0
+
+Manageable family / baseline:
+condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+ baseline    manageable  a10_robust_v3 224      0.026786  0.000078              0.002883      0.955507    0.984799      0.026786      0.000000          0.0
+ baseline    manageable a10_predictive 224      0.026786  0.000079              0.003542      0.949827    0.983546      0.026786      0.000000          0.0
+ baseline    manageable       a10_full 224      0.040179  0.000230              0.004245      0.950354    0.995084      0.040179      0.000000          0.0
+ baseline    manageable  pump_radiator 224      0.330357  1.143175              0.111789      1.000000    1.445990      0.330357      0.316964          0.0
+
+Manageable family / sensor_delay_0p5:
+       condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+sensor_delay_0p5    manageable  a10_robust_v3 224      0.026786  0.000093              0.003222      0.929307    0.981025      0.026786      0.000000          0.0
+sensor_delay_0p5    manageable a10_predictive 224      0.066964  0.004444              0.008080      0.949906    1.004714      0.066964      0.000000          0.0
+sensor_delay_0p5    manageable       a10_full 224      0.321429  0.036943              0.018940      0.944080    1.299855      0.321429      0.102679          0.0
+sensor_delay_0p5    manageable  pump_radiator 224      0.732143  1.103639              0.098132      1.000000    1.403241      0.732143      0.308036          0.0
+
+Manageable family / sensor_delay_1p0:
+       condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+sensor_delay_1p0    manageable  a10_robust_v3 224      0.013393  0.000036              0.001618      0.896489    0.967690      0.013393      0.000000          0.0
+sensor_delay_1p0    manageable a10_predictive 224      0.084821  0.005800              0.011656      0.949445    1.016216      0.084821      0.000000          0.0
+sensor_delay_1p0    manageable       a10_full 224      0.906250  0.074261              0.151068      0.938479    1.293878      0.906250      0.102679          0.0
+sensor_delay_1p0    manageable  pump_radiator 224      0.995536  1.021018              0.132158      1.000000    1.399138      0.995536      0.544643          0.0
+
+Manageable family / actuator_0p8:
+   condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+actuator_0p8    manageable  a10_robust_v3 224      0.174107  0.034595              0.019252      0.930225    1.056491      0.174107      0.004464          0.0
+actuator_0p8    manageable       a10_full 224      0.196429  0.026806              0.025889      0.939881    1.075886      0.196429      0.008929          0.0
+actuator_0p8    manageable a10_predictive 224      0.205357  0.029151              0.025770      0.937400    1.081255      0.205357      0.008929          0.0
+actuator_0p8    manageable  pump_radiator 224      0.428571  1.379564              0.206875      1.000000    1.482702      0.428571      0.352679          0.0
+
+Manageable family / actuator_0p6:
+   condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+actuator_0p6    manageable  a10_robust_v3 224      0.272321  0.110796              0.039475      0.899662    1.153644      0.272321      0.031250          0.0
+actuator_0p6    manageable       a10_full 224      0.276786  0.154516              0.042969      0.924934    1.184383      0.276786      0.089286          0.0
+actuator_0p6    manageable a10_predictive 224      0.281250  0.180357              0.044356      0.925228    1.193077      0.281250      0.111607          0.0
+actuator_0p6    manageable  pump_radiator 224      0.674107  2.042893              0.471250      1.000000    1.601833      0.674107      0.428571          0.0
+
+Out-of-sample family / baseline:
+condition stress_family           mode   n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+ baseline out_of_sample a10_predictive 160       0.09375  0.002174              0.009516      0.923568    1.013838       0.09375       0.00000          0.0
+ baseline out_of_sample       a10_full 160       0.12500  0.003038              0.011339      0.921746    1.013971       0.12500       0.00000          0.0
+ baseline out_of_sample  a10_robust_v3 160       0.13750  0.004758              0.014089      0.928176    1.023319       0.13750       0.00000          0.0
+ baseline out_of_sample  pump_radiator 160       0.98750  1.218723              0.422547      1.000000    1.387754       0.98750       0.98125          0.0
+
+Frontier family / baseline:
+condition stress_family           mode  n  failure_rate  CVaR95_V  mean_unsafe_fraction  mean_Y_final  max_Tc_p95  fail_Tc_rate  fail_Tp_rate  fail_Y_rate
+ baseline      frontier  a10_robust_v3 32        0.2500  0.009144              0.031406      0.917762    1.042614        0.2500           0.0          0.0
+ baseline      frontier a10_predictive 32        0.3125  0.008045              0.031953      0.913301    1.031576        0.3125           0.0          0.0
+ baseline      frontier       a10_full 32        0.3750  0.009048              0.046380      0.907743    1.055004        0.3750           0.0          0.0
+ baseline      frontier  pump_radiator 32        1.0000  1.535051              0.555755      1.000000    1.433784        1.0000           1.0          0.0
+
+Predeclared Phase 2D checks:
+  baseline_pass: True
+  delay05_pass: True
+  act08_pass: False
+  delay10_soft_pass: True
+  act06_soft_pass: True
+  improvement_vs_raw_a10_delay05: True
+  improvement_vs_raw_a10_act08: False
+  out_of_sample_damage_pass: True
+
+Status: PASS-PHASE2D-IMPROVEMENT-NOT-ROBUST
+
+Claim boundary:
+  A Phase 2D pass remains a reduced nondimensional surrogate result.
+  It supports only delay/degradation robustness inside this toy/preflight model.
+  It is not spacecraft hardware validation.
+
+Next step:
+  If PASS-PHASE2D, proceed to Phase 3 resource-frontier/mission-readiness synthesis.
+  If only improvement is observed, record a delayed-observation bottleneck and
+  keep the paper claim at baseline-ablation/OOS-damage level.

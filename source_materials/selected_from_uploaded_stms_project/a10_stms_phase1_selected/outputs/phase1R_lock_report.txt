@@ -1,0 +1,57 @@
+A10-STMS Phase 1R Resource-Frontier Recalibration Report
+==============================================================================
+
+Purpose:
+  Locate the transition from damage-limiting behavior to mission-feasible
+  behavior by sweeping radiator, transport, and storage resource scales.
+
+Best classified resource point:
+  rad_scale: 1.0
+  transport_scale: 1.0
+  storage_scale: 1.0
+  regime: DAMAGE-LIMITING-NOT-MISSION-FEASIBLE
+  a10_manage_failure: 1.0
+  a10_manage_CVaR95: 215.9555102156107
+  a10_manage_unsafe: 0.9671726190476191
+  a10_manage_Y: 0.6586473069505183
+  a10_frontier_failure: 1.0
+  a10_frontier_CVaR95: 414.3971190776342
+  a10_frontier_unsafe: 0.9720833333333334
+  a10_frontier_Y: 0.6324865853180359
+  no_control_manage_failure: 1.0
+  pump_radiator_manage_failure: 1.0
+  pump_radiator_manage_CVaR95: 712.5576092630854
+
+Regime counts:
+regime
+DAMAGE-LIMITING-NOT-MISSION-FEASIBLE    70
+
+No mission-feasible candidate found in this resource grid.
+This means the tested resource envelope is still too weak, or the A10
+load-preservation logic is too conservative.
+
+Best damage-limiting but not mission-feasible points:
+ rad_scale  transport_scale  storage_scale  a10_manage_failure  a10_manage_CVaR95  a10_manage_unsafe  a10_manage_Y  pump_radiator_manage_CVaR95
+       1.0              1.0            1.0                 1.0         215.955510           0.967173      0.658647                   712.557609
+       1.0              1.5            1.0                 1.0         117.864856           0.961994      0.676371                   372.787385
+       1.0              1.0            2.0                 1.0         181.757235           0.966875      0.606704                   684.083104
+       1.0              2.0            1.0                 1.0          58.969088           0.954435      0.705991                   234.646442
+       1.0              1.5            2.0                 1.0          81.840159           0.961101      0.620911                   350.504202
+       2.0              1.0            1.0                 1.0         204.963778           0.967232      0.661723                   672.981844
+       1.0              2.0            2.0                 1.0          47.346491           0.953423      0.651986                   231.721420
+       2.0              1.5            1.0                 1.0          99.454279           0.962024      0.677486                   355.301382
+       2.0              1.0            2.0                 1.0         179.696185           0.968036      0.608167                   670.805007
+       1.0              3.0            1.0                 1.0          31.481851           0.942589      0.746967                   111.141964
+       2.0              2.0            1.0                 1.0          63.627799           0.955461      0.704476                   187.175721
+       2.0              1.5            2.0                 1.0          75.704445           0.960595      0.627061                   349.227864
+
+Claim boundary:
+  A PASS here only means that the reduced nondimensional surrogate contains
+  a nontrivial mission-feasible region for the A10-STMS architecture.
+  It is not a spacecraft thermal-control validation or hardware design.
+
+Next decision:
+  If a mission-feasible nontrivial point appears, proceed to Phase 2 stress
+  and ablation tests around the lowest-resource candidate.
+  If only damage-limiting points appear, expand the resource grid or retune
+  the A10 load-preservation barrier.

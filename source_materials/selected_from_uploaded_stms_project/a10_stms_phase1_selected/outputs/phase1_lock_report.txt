@@ -1,0 +1,38 @@
+A10-STMS Phase 1 Lock Report
+========================================================================
+Status: PASS-PHASE1-CANDIDATE
+
+Predeclared checks:
+  finite_pass: True
+  no_control_fail_check: True
+  a10_best_failure: True
+  a10_best_CVaR95: True
+  a10_best_unsafe_duration: True
+
+A10-Hybrid aggregate:
+  failure_rate: 1
+  CVaR90_V: 510.88722
+  CVaR95_V: 579.92838
+  mean_unsafe_fraction: 0.96845486
+  max_Tc_p95: 6.3726425
+  min_Es_p05: 0.1922926
+  min_Pm_p05: 0.64856611
+  mean_Y_final: 0.649354
+
+Best modes by metric:
+  min failure_rate: a10_hybrid = 1
+  min CVaR95_V: a10_hybrid = 579.92838
+  min mean_unsafe_fraction: a10_hybrid = 0.96845486
+  max mean_Y_final: pump_radiator = 1
+
+Claim boundary:
+  This result is a nondimensional reduced-surrogate audit only.
+  It is not a spacecraft hardware design, not a thermal-vacuum validation,
+  and not evidence that A10-STMS exceeds radiative thermal limits.
+
+Interpretation guide:
+  PASS-PHASE1-CANDIDATE means the separated-barrier hybrid architecture
+  deserves Phase 2 stress/resource-frontier testing.
+  NEEDS-TRIAGE-A10-NOT-BEST is still scientifically useful: it identifies
+  whether the regime is simple-pump-feasible, radiator-limited,
+  power-limited, storage-limited, or badly tuned.

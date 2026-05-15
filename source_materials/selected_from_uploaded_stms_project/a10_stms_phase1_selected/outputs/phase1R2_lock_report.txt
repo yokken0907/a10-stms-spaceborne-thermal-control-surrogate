@@ -1,0 +1,52 @@
+A10-STMS Phase 1R2 Extended Resource-Frontier Report
+============================================================================
+
+Best classified point:
+  rad_scale: 24.0
+  transport_scale: 12.0
+  storage_scale: 1.0
+  best_a10_mode: a10_hybrid_v2
+  regime: PASS-MISSION-FEASIBLE-SEPARATION
+  best_manage_failure: 0.07142857142857142
+  best_manage_CVaR95: 8.470817388815084e-05
+  best_manage_unsafe: 0.007470238095238095
+  best_manage_Y: 0.9534100721478872
+  best_manage_Tc95: 0.9139695731112794
+  best_frontier_failure: 0.75
+  best_frontier_CVaR95: 0.007523757836904658
+  best_frontier_unsafe: 0.098125
+  best_frontier_Y: 0.9225951523454555
+  no_control_manage_failure: 1.0
+  pump_radiator_manage_failure: 0.35714285714285715
+  pump_radiator_manage_CVaR95: 0.17890902449336615
+
+Regime counts:
+regime
+DAMAGE-LIMITING-NOT-MISSION-FEASIBLE    102
+PASS-MISSION-FEASIBLE-SEPARATION          3
+
+Mission-feasible separation candidates:
+ rad_scale  transport_scale  storage_scale best_a10_mode                           regime  best_manage_failure  best_manage_CVaR95  best_manage_unsafe  best_manage_Y  best_manage_Tc95  best_frontier_failure  best_frontier_CVaR95  best_frontier_unsafe  best_frontier_Y  best_harsh_failure  best_harsh_CVaR95  best_harsh_unsafe  best_harsh_Y  a10v1_manage_failure  a10v1_manage_CVaR95  a10v1_manage_Y  a10v2_manage_failure  a10v2_manage_CVaR95  a10v2_manage_Y  no_control_manage_failure  no_control_manage_CVaR95  pump_radiator_manage_failure  pump_radiator_manage_CVaR95  pump_radiator_manage_unsafe  pump_radiator_manage_Y  regime_order  resource_score
+      24.0             12.0            1.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.071429            0.000085            0.007470       0.953410          0.913970                   0.75              0.007524              0.098125         0.922595                 1.0           0.520614           0.295208      0.894539              0.142857             0.005240        0.890787              0.071429             0.000085        0.953410                        1.0                 17.276561                      0.357143                     0.178909                     0.122798                     1.0             0            36.5
+      24.0             12.0            2.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.071429            0.000255            0.007470       0.954020          0.916654                   0.25              0.001937              0.034167         0.931193                 1.0           0.237504           0.279792      0.882100              0.178571             0.001957        0.889328              0.071429             0.000255        0.954020                        1.0                 23.914772                      0.285714                     0.201307                     0.070000                     1.0             0            37.0
+      24.0             12.0            4.0 a10_hybrid_v2 PASS-MISSION-FEASIBLE-SEPARATION             0.071429            0.001777            0.009792       0.950869          0.917647                   0.25              0.005092              0.035625         0.913309                 1.0           0.158261           0.181875      0.847739              0.142857             0.000690        0.879545              0.071429             0.001777        0.950869                        1.0                 21.128704                      0.285714                     0.204829                     0.067381                     1.0             0            38.0
+
+Best damage-limiting candidates:
+ rad_scale  transport_scale  storage_scale best_a10_mode  best_manage_CVaR95  best_manage_unsafe  best_manage_Y  best_manage_Tc95  pump_radiator_manage_CVaR95
+       1.0              2.0            1.0 a10_hybrid_v2           61.736812            0.954970       0.837147          2.752542                   203.432937
+       1.0              2.0            2.0    a10_hybrid           38.095317            0.953601       0.654859          2.452881                   227.085199
+       2.0              2.0            1.0 a10_hybrid_v2           38.462270            0.953423       0.842662          2.478256                   185.186526
+       1.0              2.0            4.0    a10_hybrid           25.914053            0.948095       0.609613          2.170492                   185.803457
+       2.0              2.0            2.0 a10_hybrid_v2           36.454549            0.953988       0.805884          2.433152                   178.815151
+       1.0              4.0            1.0    a10_hybrid           18.648131            0.932917       0.756332          1.945579                    77.811851
+       1.0              4.0            2.0    a10_hybrid           11.219234            0.918958       0.690470          1.754312                    79.373995
+       2.0              2.0            4.0    a10_hybrid           20.413813            0.950208       0.612092          2.087178                   185.148639
+       2.0              4.0            1.0 a10_hybrid_v2           10.505193            0.931667       0.869131          1.749886                    52.455139
+       4.0              2.0            1.0 a10_hybrid_v2           30.500008            0.951964       0.844722          2.319545                   134.081639
+       2.0              4.0            2.0    a10_hybrid            6.715444            0.919702       0.702907          1.653091                    50.650974
+       1.0              4.0            4.0    a10_hybrid           10.251942            0.892173       0.626104          1.677507                    70.808106
+
+Claim boundary:
+  This is still a reduced nondimensional surrogate audit.
+  A mission-feasible result here would justify Phase 2 stress/ablation testing,
+  not a hardware or spacecraft validation claim.

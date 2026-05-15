@@ -1,0 +1,35 @@
+A10-STMS Phase 1T Failure-Reason Triage
+========================================================================
+
+Interpretation:
+  fail_Tc/Tp/Tr = thermal ceiling violation rate
+  fail_Es       = storage depletion violation rate
+  fail_Pm       = power-margin depletion violation rate
+  fail_G        = gradient-risk violation rate
+  fail_Y        = mission-throughput shortfall rate
+
+By mode:
+         mode  fail_Tc_mean  fail_Tp_mean  fail_Tr_mean  fail_Es_mean  fail_Pm_mean  fail_G_mean  fail_Y_mean  failure_mean      V_mean    V_median  unsafe_fraction_mean  Y_final_mean  max_Tc_mean  max_Tc_median  max_Tc_max  min_Es_mean  min_Es_min  min_Pm_mean  min_Pm_min
+   a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0  221.621647  176.691587              0.968455      0.649354     4.312821       3.808086    7.494702     0.248831    0.182504     0.801593    0.570093
+load_throttle           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 1064.289299  895.917086              0.971472      0.560296     8.018513       7.723381   12.395101     0.773333    0.460000     0.805556    0.650000
+   no_control           1.0           1.0           1.0           0.0           0.0          1.0          0.0           1.0 3227.807128 2741.849503              0.974232      1.000000    13.092099      12.609443   19.455191     0.773333    0.460000     0.805556    0.650000
+    pump_only           1.0           1.0           1.0           0.0           0.0          1.0          0.0           1.0  852.951086  699.746447              0.970860      1.000000     6.643643       6.198147   10.647534     0.773333    0.460000     0.799799    0.564644
+pump_radiator           1.0           1.0           1.0           0.0           0.0          1.0          0.0           1.0  670.461694  558.348478              0.971107      1.000000     6.085389       5.615427   10.041201     0.773333    0.460000     0.778081    0.426003
+radiator_only           1.0           1.0           1.0           0.0           0.0          1.0          0.0           1.0 2580.135039 2179.739794              0.973980      1.000000    11.527592      11.076277   18.915839     0.773333    0.460000     0.805441    0.631341
+
+A10-Hybrid by stress:
+              stress       mode  fail_Tc_mean  fail_Tp_mean  fail_Tr_mean  fail_Es_mean  fail_Pm_mean  fail_G_mean  fail_Y_mean  failure_mean     V_mean   V_median  unsafe_fraction_mean  Y_final_mean  max_Tc_mean  max_Tc_median  max_Tc_max  min_Es_mean  min_Es_min  min_Pm_mean  min_Pm_min
+          burst_heat a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 283.414626 277.771608              0.967049      0.654925     5.262309       5.234929    6.065232     0.243142    0.222150     0.840000    0.840000
+      combined_harsh a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 488.573251 478.723383              0.974635      0.599906     6.285655       6.274572    7.494702     0.193760    0.182504     0.634613    0.570093
+   combined_moderate a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 293.404808 288.461550              0.970538      0.636817     4.974931       4.963804    5.994750     0.221813    0.204751     0.720000    0.720000
+  eclipse_transition a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 129.047572 126.954546              0.966597      0.672764     3.426711       3.418275    3.852551     0.285333    0.258266     0.840000    0.840000
+             nominal a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 139.290608 128.044742              0.967083      0.671262     3.488070       3.442807    4.009508     0.279167    0.246007     0.840000    0.840000
+      power_shortage a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 154.811614 149.774216              0.969010      0.668047     3.602044       3.579198    4.138766     0.272796    0.249458     0.819720    0.733083
+radiator_degradation a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 140.745797 141.379151              0.966181      0.671809     3.529958       3.548340    4.052334     0.272684    0.247661     0.840000    0.840000
+       solar_heating a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 150.243980 153.641472              0.968090      0.670047     3.553120       3.587865    3.996971     0.268203    0.249926     0.840000    0.840000
+  storage_saturation a10_hybrid           1.0           1.0           1.0           0.0           0.0          1.0          1.0           1.0 215.062569 212.410892              0.966910      0.598608     4.692591       4.700872    5.565046     0.202582    0.193786     0.840000    0.840000
+
+Most important diagnostic:
+  If fail_Tc is near 1.0 while fail_Es and fail_Pm are near 0, the case is radiator/heat-transport limited.
+  If fail_Y is near 1.0 for A10-Hybrid, the controller is preserving thermal margin by sacrificing mission throughput.
+  If all modes fail_Tc even in nominal stress, the surrogate is too severe and requires calibrated Phase 1R.
