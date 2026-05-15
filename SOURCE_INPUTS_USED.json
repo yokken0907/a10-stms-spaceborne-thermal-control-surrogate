@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-05-06T15:46:42.232504+00:00",
+  "source_zip": {
+    "name": "a10_stms_phase1_selected.zip",
+    "sha256": "f852b032299a3ddfcaaf87c532c730476d54373ce12068139cc2ad66cb7158dc",
+    "size_bytes": 134816347
+  },
+  "paper_pdf": {
+    "name": "a10_stms_cooling_revised_manuscript(8).pdf",
+    "sha256": "4cf7769f5ca9935b0d457b3b367eb5ac0d83a81cc7ee7b5b7d887c07cb92fe33",
+    "size_bytes": 1395835
+  },
+  "selected_file_count": 78,
+  "deferred_file_count": 7172,
+  "large_assets_count": 14,
+  "included_png_count": 40,
+  "included_small_csv_count": 20
+}

@@ -1,0 +1,29 @@
+{
+  "decision": "PASS-WITH-MINOR-PUBLICATION-FIXES-A10-STMS-PUBLIC-GATE-0",
+  "repository": "a10-stms-spaceborne-thermal-control-surrogate",
+  "public_version": "v0.1.1-public-gate",
+  "date": "2026-05-07",
+  "classification": "宇宙機・高負荷産業機器の熱制御／冷却サロゲート",
+  "allowed_public_description": "A dimensionless reduced-surrogate audit of mission-variable-preserving hybrid thermal control for spaceborne/industrial thermal-control motifs.",
+  "allowed_public_description_ja": "宇宙機・高負荷産業機器を想定した無次元低次元サロゲート上のmission-variable-preserving hybrid thermal-control監査。",
+  "forbidden_claims": [
+    "spacecraft implemented cooling technology",
+    "thermal-vacuum tested technology",
+    "flight controller",
+    "certified aerospace safety system",
+    "mission-feasible claim for unresolved harsh combined stress"
+  ],
+  "publication_posture": {
+    "github": "GO after URL replacement.",
+    "zenodo": "GO after GitHub release.",
+    "jxiv": "CONDITIONAL; explicitly exclude harsh combined stress from mission-feasible claims."
+  },
+  "manifest_policy": "manifest-excluding-self",
+  "manifest_entries_verified": 111,
+  "manifest_errors": [],
+  "notes": [
+    "Harsh combined stress remains unresolved and is excluded from mission-feasible claims.",
+    "Japanese marker source paths were normalized to ASCII selected-source names."
+  ],
+  "claim_promotion_authorized": false
+}

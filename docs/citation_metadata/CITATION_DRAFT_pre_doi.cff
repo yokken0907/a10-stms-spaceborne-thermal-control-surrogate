@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "A10-STMS Spaceborne Thermal-Control Surrogate"
+message: "If you use these materials, please cite the corresponding manuscript."
+type: dataset
+authors:
+  - family-names: Yoshimura
+    given-names: Keiji
+    affiliation: Independent Researcher
+abstract: "Paper companion archive for an AI-assisted independent research manuscript on A10-STMS, a nondimensional reduced-surrogate audit of mission-variable-preserving hybrid thermal control for spaceborne industrial systems under radiative, storage, power, delay, and actuator constraints."
+repository-code: "https://github.com/yokken0907/a10-stms-spaceborne-thermal-control-surrogate"
+date-released: "2026-05-07"
+version: "v0.1.1-public-gate"
+license: "LicenseRef-Evaluation-Only"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Yoshimura
+      given-names: Keiji
+      affiliation: Independent Researcher
+  title: "A10-STMS: A Reduced-Surrogate Audit of Mission-Variable-Preserving Hybrid Thermal Control for Spaceborne Industrial Systems under Radiative, Storage, Power, Delay, and Actuator Constraints"
+  year: 2026
+  # doi: "pending"  # to be replaced after Zenodo DOI assignment

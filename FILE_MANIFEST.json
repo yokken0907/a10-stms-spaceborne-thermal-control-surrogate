@@ -1,0 +1,567 @@
+[
+  {
+    "path": ".gitignore",
+    "size_bytes": 124,
+    "sha256": "212bc50b5067a2ce4c0507b4d95c03d4f70d33299e36866d1a57728a268b2256"
+  },
+  {
+    "path": "AI_ASSISTANCE_DISCLOSURE.md",
+    "size_bytes": 496,
+    "sha256": "8735e28309e3f9a08ff65fba84fd42171bb0145d02829bd914ecd1f6a55f8dff"
+  },
+  {
+    "path": "CATEGORY_TITLE_ja.md",
+    "size_bytes": 642,
+    "sha256": "e3f13f1f5f5b0570d7ab6a1fd2b456774bb107e8abb47ac87c40c39bcd636bf7"
+  },
+  {
+    "path": "CLAIM_BOUNDARY.md",
+    "size_bytes": 2427,
+    "sha256": "b2e5e42e7202253479852777e93bdde8fd760e29bd4e0cb8993355cd91dc48c0"
+  },
+  {
+    "path": "LICENSE",
+    "size_bytes": 626,
+    "sha256": "5a9f6e91b69dbbfa250181875461d61b7161dfeb296b30f3496261212016ab3b"
+  },
+  {
+    "path": "LICENSE_EVALUATION_ONLY.txt",
+    "size_bytes": 626,
+    "sha256": "5a9f6e91b69dbbfa250181875461d61b7161dfeb296b30f3496261212016ab3b"
+  },
+  {
+    "path": "LIMITATIONS.md",
+    "size_bytes": 1233,
+    "sha256": "f0c2fab9fb0d4e059986920672c4234d7bb901f8f2b2d1d87133bcf1f6743791"
+  },
+  {
+    "path": "MANIFEST_NOTE.md",
+    "size_bytes": 392,
+    "sha256": "0319119ba2ae95e98f746be724633a4e31acbf649ee8b82181770fb81b87d4af"
+  },
+  {
+    "path": "PRACTICAL_POSITIONING_SHEET_ja.md",
+    "size_bytes": 3532,
+    "sha256": "7a8321c46685085c5f00a16faba2803cf975501752196f4157b0d6519d468e51"
+  },
+  {
+    "path": "PUBLICATION_STRATEGY_ja.md",
+    "size_bytes": 1066,
+    "sha256": "52c5980982afaaa6aa852aec17174589f90db4d777cfa3816aa66331dbcc25fe"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 3147,
+    "sha256": "b889d67273e169fd3463fb4e0c650e334911152b2c03d132a2c53975e41a568d"
+  },
+  {
+    "path": "README_ja.md",
+    "size_bytes": 3215,
+    "sha256": "78c8c7d7a3bf1d94ffdc83c4931be6c884cafd079374ed652f67fce358164050"
+  },
+  {
+    "path": "RELEASE_NOTES_v0.1.1_zenodo_safe_public_gate.md",
+    "size_bytes": 2548,
+    "sha256": "81cca0afae7e17f4d9acb4309fac575db39949fd8b2a200c88e45042b7e365ed"
+  },
+  {
+    "path": "SOURCE_INPUTS_USED.json",
+    "size_bytes": 571,
+    "sha256": "8a5f3db7dd2b4cd4edb7aad28b6962ab94992b90cc231923af136908e7a88b82"
+  },
+  {
+    "path": "deferred_related_materials_index/README_ja.md",
+    "size_bytes": 362,
+    "sha256": "039abd353362e3dffdbd2427b76dba6992e0f1454fec1d943c48abea5dca35d8"
+  },
+  {
+    "path": "deferred_related_materials_index/source_materials_classification.csv",
+    "size_bytes": 1189197,
+    "sha256": "08fdce912cea2dd42e79375c6e8585d01b21e037283fb7c9cda0bda0abf03bd3"
+  },
+  {
+    "path": "docs/GITHUB_PUBLICATION_CHECKLIST_ja.md",
+    "size_bytes": 926,
+    "sha256": "431227ce67e4a59b99b9b74f2709f740b23ba6563f7000fd5299bdf00f045a23"
+  },
+  {
+    "path": "docs/MISSING_MATERIALS_ja.md",
+    "size_bytes": 588,
+    "sha256": "0e2aeff02cf5cbf4b488c995d790dc31d2db1ecfaddb69feabd818b8af523b13"
+  },
+  {
+    "path": "docs/REPRODUCIBILITY_NOTES_ja.md",
+    "size_bytes": 897,
+    "sha256": "60f1d0cf7a71bbe4f9813dc89d8e13abdee1aa98e6715fc4d6f98d29e1198f47"
+  },
+  {
+    "path": "docs/citation_metadata/CITATION_DRAFT_pre_doi.cff",
+    "size_bytes": 1177,
+    "sha256": "5b419af730c7379c4f62848165a98ee7541dc82df7ceefed8f709364b5e4e866"
+  },
+  {
+    "path": "docs/public_gate_0/PUBLIC_GATE_0_A10_STMS.json",
+    "size_bytes": 1473,
+    "sha256": "8f0e294c2475dbdb7a4e79a3d7796844eea70dce42172f2cbbf2e85dfd021a9a"
+  },
+  {
+    "path": "docs/public_gate_0/PUBLIC_GATE_0_A10_STMS.md",
+    "size_bytes": 1709,
+    "sha256": "c9f9e39ef852f7fe40064dfa5425e9ee7bdeff4a6ea68cbf4ed492be6d3b69ac"
+  },
+  {
+    "path": "figures/README_ja.md",
+    "size_bytes": 613,
+    "sha256": "b5171101c8d45743a7e18bc8bada7371baa6cae20c913b90f12eddb4ee8a392f"
+  },
+  {
+    "path": "figures/figure_index.csv",
+    "size_bytes": 5691,
+    "sha256": "4206c46cca41caf3903a4eb678855a501def579ade19e7b5fb06e3cb57863d17"
+  },
+  {
+    "path": "large_assets_not_in_git/README_ja.md",
+    "size_bytes": 572,
+    "sha256": "6b0f676d906829e3ee7436b0acb281f50aa35a2e396a28c3cb26ab47ff2f3b93"
+  },
+  {
+    "path": "large_assets_not_in_git/large_outputs_inventory.csv",
+    "size_bytes": 2141,
+    "sha256": "5ff085fb48b8fe7acca6551604b5891922258b774f619a32e313144c95629e04"
+  },
+  {
+    "path": "manuscript/README_ja.md",
+    "size_bytes": 201,
+    "sha256": "2e0049a852c8e551c30c660c59a2f62e55ac1f8b1dd7951e567a85ff92527e5a"
+  },
+  {
+    "path": "manuscript/a10_stms_cooling_revised_manuscript.pdf",
+    "size_bytes": 1395835,
+    "sha256": "4cf7769f5ca9935b0d457b3b367eb5ac0d83a81cc7ee7b5b7d887c07cb92fe33"
+  },
+  {
+    "path": "manuscript/jxiv_metadata_ja_en.md",
+    "size_bytes": 837,
+    "sha256": "c90e6a07275f59cea62d52cf224a1e5b1df7ca7db8a1ae47ade9d24453d57c20"
+  },
+  {
+    "path": "results_summary/summary.json",
+    "size_bytes": 5920,
+    "sha256": "408ae4873bc69b660d4f1a4ee6642e6fd04560e457ef06562d684ae032eb85c0"
+  },
+  {
+    "path": "results_summary/table3_validation_sequence.csv",
+    "size_bytes": 870,
+    "sha256": "45ade62850db3c1d03acd3ec98683080986b862f3195cffeba3ca0be3a6187ab"
+  },
+  {
+    "path": "results_summary/table5_phase2E_manageable_metrics.csv",
+    "size_bytes": 777,
+    "sha256": "307f233ea81cc98a851da8b6e4a46543de9bc60859edf552d8d7e8a3ddaf07fb"
+  },
+  {
+    "path": "results_summary/table6_oos_frontier_harsh_metrics.csv",
+    "size_bytes": 461,
+    "sha256": "abd85eb99d16b9695af119f9add17ead44ad6e503aee8abe2fcbeef972bbaa02"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/README_ja.md",
+    "size_bytes": 802,
+    "sha256": "09c7c7c5207e5271c306bd9ea1407143e5a4da231af3a15e45581bf3f671da80"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase1.py",
+    "size_bytes": 24881,
+    "sha256": "173694f3405d6fc883c43c484e913bc340f96855ea8037d100b3dfb6487ed733"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase1R2C_confirm.py",
+    "size_bytes": 11644,
+    "sha256": "b6f27d12172a00d5f17e05a2ad7441ac2fce32186efdf68962bc6243d818ea00"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase1R2_extended_frontier.py",
+    "size_bytes": 17322,
+    "sha256": "c858d15ce6ce524324c8d210192c215a83d8d40c790535f524c835769d4e9661"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase1R_resource_frontier.py",
+    "size_bytes": 15326,
+    "sha256": "82cc1e26840ef6967f6c80fce0567efc9d6e20bd392adc656c20f28421d6839b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase1_triage.py",
+    "size_bytes": 3513,
+    "sha256": "48041bd1c7287638833bf44b9f76fc7b16b3befc5bb8013698855acd49d7f326"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase2D_delay_degrade_redesign.py",
+    "size_bytes": 21789,
+    "sha256": "702deac1c2108fd6b5a2ce104b44e893fbcd4276f9c72eac4db26274de7bdfd4"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase2E_authority_retune.py",
+    "size_bytes": 18192,
+    "sha256": "46dacdd8af8e2fdf9952182b98fc06ed7ff0066c967962b5ff77d12a56426410"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase2_ablation_oos.py",
+    "size_bytes": 24061,
+    "sha256": "e1c751be1ebc2d16290176c4d4c6f2ad4768f3c7edc4c72e50999c95f6e3046c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/a10_stms_phase3_synthesis.py",
+    "size_bytes": 11715,
+    "sha256": "8362c0b05595438b440a62d309e882a95ce1463630d1e5be2182a05dedddd46f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/a10_hybrid_controls_combined_moderate.png",
+    "size_bytes": 105246,
+    "sha256": "1bdfd3769c66789648d9e35f951546e3d616c4c2739ead683574483e8205562f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/cvar95_by_mode.png",
+    "size_bytes": 83670,
+    "sha256": "29e22d7bafdd7677bd04f3083a9dbd1e5b23d6e682dd301907ac1a1a6c17c6a7"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/example_Pm_combined_moderate.png",
+    "size_bytes": 103180,
+    "sha256": "999c1b1a2725d8248c6356a3a8e58eba0bcaef0c47a0c8ae6aeacedf29554051"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/example_Tc_combined_moderate.png",
+    "size_bytes": 155232,
+    "sha256": "f01524ac77ddd4fa01a19a2c2ba41f5902d7f05b4cc1de93711cfbc0263e12d7"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/example_Y_combined_moderate.png",
+    "size_bytes": 121597,
+    "sha256": "bb71e2d8d69b1e6593cfa6b3a4d6f88f674ebe0c64a8d1032a9cbe0f9b3964be"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/failure_rate_by_mode.png",
+    "size_bytes": 62176,
+    "sha256": "965320042305b5efd5c54f917f9114ee001e26f3ab7820370efacb03cee87e2c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/mission_throughput_by_mode.png",
+    "size_bytes": 71735,
+    "sha256": "b6b44499efab8c59975636bb7667307028784699e243f378accf6573a9726d62"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2C_manageable_cvar95.png",
+    "size_bytes": 83356,
+    "sha256": "75a9fb7bf242db4028cd96daf7cc7bf93e93bba9ae2f808e6ede7e87bc5d862e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2C_manageable_failure.png",
+    "size_bytes": 79870,
+    "sha256": "97478947e59b548ed82854ef1e2aecf3b5c2fd7432a3ae900fd850909889b28e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2C_manageable_throughput.png",
+    "size_bytes": 80482,
+    "sha256": "45842bbaa3db9c2a06f179e3b9df5ab1d2fdb14bd67df580528fa4bf8d6ae98c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2_best_a10_cvar95.png",
+    "size_bytes": 74643,
+    "sha256": "0cea364ca18238c1f6bf05a57f913481a94cd2abd21f92f7503eb62ec9a5fd35"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2_best_a10_throughput.png",
+    "size_bytes": 77754,
+    "sha256": "4ab8df53f5f504a261d6284b88fd9112e81cbe8c612e2a7e14709097e36b33f1"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R2_frontier_classification.png",
+    "size_bytes": 74961,
+    "sha256": "e8c2079cb5d6e34dc12b2beb391544dae3ac227ab8d6050b9cf33be498681754"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R_a10_manageable_cvar95.png",
+    "size_bytes": 88038,
+    "sha256": "cbcd10649d027945d6f3b4929af2ef9753631024d332db156e41b6bfe4bc901e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase1R_resource_frontier_classification.png",
+    "size_bytes": 81004,
+    "sha256": "a8b614b0bdee791a8ca39e049500a4eab9525f8c579bee08cb0c98ff62d58ad6"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_manageable_failure_actuator_0p6.png",
+    "size_bytes": 60509,
+    "sha256": "a99eb89bf18ef9d26630b87c9de63df4f77979ba22ff073112053477fbaf0b72"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_manageable_failure_actuator_0p8.png",
+    "size_bytes": 66972,
+    "sha256": "b51d10348169ed9b4fc0b01826cd930307e404646bb4c6b61fce6c206d3aea28"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_manageable_failure_baseline.png",
+    "size_bytes": 61006,
+    "sha256": "001ceab0b6909d482c32fcf73fd37e162adf9540374c53d078d66e249765a209"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_manageable_failure_sensor_delay_0p5.png",
+    "size_bytes": 61724,
+    "sha256": "dfa5ce6459a2f7d315bf8a993836ff0823bce08c16913cfd69b547a4a3c2c1b8"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_manageable_failure_sensor_delay_1p0.png",
+    "size_bytes": 59401,
+    "sha256": "5871d32fabd74eecfdd04c2c3f53bd079ab6ea984b7c788a19c7bc82debd162b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_robust_v3_condition_failure.png",
+    "size_bytes": 61001,
+    "sha256": "cfef7ae1d0c0ca3377be8e9ad455c3dc7336cb605c9dbc31780db26e02a8fb2f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2D_robust_v3_condition_throughput.png",
+    "size_bytes": 59562,
+    "sha256": "91c7d735edcfe02715952cf726f1aa9d8f0aaa5cb1e160f57537d043bdfaeaca"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_manageable_failure_actuator_0p6.png",
+    "size_bytes": 65184,
+    "sha256": "728600888c9bddb31633124b91ad67cc37b18e40addb0d05720f62f44d23b5d1"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_manageable_failure_actuator_0p8.png",
+    "size_bytes": 70308,
+    "sha256": "895e243d4cd3511f7631423f24ece4e612c73b4bc815b14f40f8c0cbd92bf038"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_manageable_failure_baseline.png",
+    "size_bytes": 66188,
+    "sha256": "a1469bcbe0141ed9ebec0cc5171b42f96031603c547e43dc9eeaa588604a4e71"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_manageable_failure_sensor_delay_0p5.png",
+    "size_bytes": 66771,
+    "sha256": "5df03e90e1b61999864465571c0c956c71a410fbc38821702d97a09581d554f7"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_manageable_failure_sensor_delay_1p0.png",
+    "size_bytes": 64579,
+    "sha256": "7e32d79a93ea4b07667e184de5100165b99e3be849b889e3940cf42d6d82778b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2E_oos_cvar95_baseline.png",
+    "size_bytes": 63756,
+    "sha256": "4f177e3598c892901c66ec53b029a5a21e55d0bddcebe618a6f5926f502c7464"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_a10_full_condition_failure.png",
+    "size_bytes": 64599,
+    "sha256": "f08c381221a09c9c9d6891f950e9ff694d0ad1a8bd6a2f4fcf3657a1282c1f5e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_cvar95_frontier.png",
+    "size_bytes": 69144,
+    "sha256": "523e47f1d717970d0c84ff51fa63765e12176493a50edf6f8685bba70e8ed855"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_cvar95_harsh.png",
+    "size_bytes": 70682,
+    "sha256": "8ed2b5797826b8c37ffcbaa2df8503188ae460657760feeea27df0903d363899"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_cvar95_manageable.png",
+    "size_bytes": 67928,
+    "sha256": "84481716f8420621718e26995a5636d0ac98136b73679524b4bccd90c07a9f7e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_cvar95_out_of_sample.png",
+    "size_bytes": 69584,
+    "sha256": "0bf3a83b859be37f60f15fd126dd84861575d9b33562fcd7f65cfa02def9c2af"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_failure_frontier.png",
+    "size_bytes": 66163,
+    "sha256": "0217d09b1691fe0c8fbd70f03cfc5b9b5ce8a2cb5f7dd757c6ea4c22072d2224"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_failure_harsh.png",
+    "size_bytes": 67393,
+    "sha256": "8012cae8f9f55a002b6752c6d8cdb05f3ba9a1fa2d363156003e053596bc9026"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_failure_manageable.png",
+    "size_bytes": 68207,
+    "sha256": "99b95d00bd6cd63507f94fc6a4c003107d684c255dd27ab9945e25b019967215"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase2_baseline_failure_out_of_sample.png",
+    "size_bytes": 67852,
+    "sha256": "7367c016ac1766f93074f4d3baec3f0363c9e9cf1d482786ce50e5d4eb87c243"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase3_oos_failure_comparison.png",
+    "size_bytes": 65144,
+    "sha256": "a65f0b0bb213061024d290cb36bca961761ab27889c5ccb76bd7d79ee66b55f5"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/phase3_primary_v4safe_failure_by_condition.png",
+    "size_bytes": 58539,
+    "sha256": "8c220974d56228c7657581b68aa71cefa5230476006bf7727c2d2f14832df13c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/figs/unsafe_duration_by_mode.png",
+    "size_bytes": 73826,
+    "sha256": "e25884b729b0e65689eefa46a11be1f05c4bf53297d455ed68a2339fcaf1a9ae"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2C_by_resource_stress_mode.csv",
+    "size_bytes": 19301,
+    "sha256": "818c9381391a93b03bda7eea0f02fe6225a7f82eb42e87368b9538ad2452d5b7"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2C_classification.csv",
+    "size_bytes": 2153,
+    "sha256": "913e092a09cd10f9c67aec64e52661cde17ee7dd7522222a4931ead56c47a462"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2C_confirmation_report.txt",
+    "size_bytes": 4479,
+    "sha256": "b9d207ca4c635054b7d8194ad97780a5074dd817ce61c03a140b1f8ba66b68c6"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2C_failure_reasons.csv",
+    "size_bytes": 4097,
+    "sha256": "51e82efdd08530a37c45c0d189bcb4a1fb692889740d0d5e3887a53c15e36a42"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2C_summary_by_mode.csv",
+    "size_bytes": 3714,
+    "sha256": "9226ac4d400f0524895b4bb0b323a56ae0c0d4c9c0875962c9399de6e921b2f6"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2_by_resource_stress_mode.csv",
+    "size_bytes": 729850,
+    "sha256": "2dc1c712ce00b6cba19bf0f2d66ddf4ee5e5c8aee8986956de2b55e1a4588591"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2_classification.csv",
+    "size_bytes": 47939,
+    "sha256": "185bae306bc9080c4f00e97ce709a86a8fd65eb535be1322a57fcd1dafe57cd8"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2_lock_report.txt",
+    "size_bytes": 5847,
+    "sha256": "3aa558a5cba0bedcd84dccabb44414628e39c579f6aa29db6cd4cdd57a7d59a9"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R2_summary_by_mode.csv",
+    "size_bytes": 112447,
+    "sha256": "a56aa6f6c32c772e7a283c1168ac429268d8c5bdd5651679a419ab486d212018"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R_by_resource_stress_mode.csv",
+    "size_bytes": 724715,
+    "sha256": "651bceb59b51861f527a63dcd7c6574cebf5c51e3023659846f36840c92bb82e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R_lock_report.txt",
+    "size_bytes": 3507,
+    "sha256": "0cbaadc7db72f15a908bd28d47cef0b1cfb4cd9a7ba5be11567588342e299fbf"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R_regime_summary_by_mode.csv",
+    "size_bytes": 107465,
+    "sha256": "a938c68cc21ee9f914b39c85c1fdc2a8353ed5d295052dae6c181988d0bc7f74"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1R_resource_classification.csv",
+    "size_bytes": 22207,
+    "sha256": "dfbbcbd9a5252c76f349594743f22799a6f08aec0b919c5966bbfde91eea510b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_by_mode.csv",
+    "size_bytes": 1217,
+    "sha256": "ac7ab19b57ad18f363d1009ff899f2ea2f48af555adc1776df124e5b564bf894"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_by_stress_mode.csv",
+    "size_bytes": 9002,
+    "sha256": "a274ab52258f2dd945d9e31bd64d9c06d6fe66d3666f40e43cb7161eeb8eb988"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_lock_report.txt",
+    "size_bytes": 1249,
+    "sha256": "6d2b3cb33f5dec2afdda8ba9fc8ffd6aa1e8686537ec76164973462a4fa80b81"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_runs.csv",
+    "size_bytes": 501295,
+    "sha256": "d6e74a798c8067ea933eced4da4e51fd1e56cbc889191b3ec6a8a3d504d420d3"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_triage_by_mode.csv",
+    "size_bytes": 1645,
+    "sha256": "2086f777f1adcbe7aa316c712ba44fde6d8b159c41942c88a59815dfb10d9f7b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_triage_by_stress_mode.csv",
+    "size_bytes": 12210,
+    "sha256": "2b95106c3aca35b53281947136f3d5117ea054c4841e43842d41d2937ccba9d5"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase1_triage_report.txt",
+    "size_bytes": 5600,
+    "sha256": "b1f6bad699c2b5b8cf9c2b31bbaba9f01218a2b27a7e25e42a3328f13ef77638"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2D_by_family_condition_mode.csv",
+    "size_bytes": 23278,
+    "sha256": "2f3ba9438d43707a512655775359c0db5b189ed72b2cc432d8b453c6be9ef127"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2D_lock_report.txt",
+    "size_bytes": 6809,
+    "sha256": "8dfbe688b658b7e719cee7f01eb99469177c3bc5500f5ac34fe396423b9b7959"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2E_by_family_condition_mode.csv",
+    "size_bytes": 23512,
+    "sha256": "2018a3b4d337c51698d35560bcb541c0872a056b0fda4c25987a1b767ce4f774"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2E_lock_report.txt",
+    "size_bytes": 6882,
+    "sha256": "6c33048f2292ab56063a082dfe61c8c3892b904510a86870a7186e770a2f826d"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2_by_family_condition_mode.csv",
+    "size_bytes": 40282,
+    "sha256": "fd96dae359c9c3889a5701438fa05a6dd8d857434204a6fb96b33895c2fd24ac"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase2_lock_report.txt",
+    "size_bytes": 6660,
+    "sha256": "56c9cc742a11c1c898edd31adae96d932f00a52ee1ad6e741385d09741ceafb2"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase3_best_manageable_by_condition.csv",
+    "size_bytes": 1789,
+    "sha256": "e7d98c2644ecf667615833dc9343ab7a646ff8707080c6e3b1c001b757ae756c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase3_final_synthesis_report.md",
+    "size_bytes": 12785,
+    "sha256": "181ba82ec1877cd3c1c84216e90bd7354ae961cd359b6e90bee3e7f47dd45dc4"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_stms_project/a10_stms_phase1_selected/outputs/phase3_primary_v4safe_metrics.csv",
+    "size_bytes": 5982,
+    "sha256": "9ae609a0b28d0eebaa1e70010165d8c8ca6837e02f1db83b033a19f7b5f84310"
+  },
+  {
+    "path": "tools/verify_manifest_excluding_self.py",
+    "size_bytes": 898,
+    "sha256": "6b1294314e6eb503336d049055322f89f6a4e596d76475efbdf1b39b24b7c395"
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "title": "A10-STMS Spaceborne Thermal-Control Surrogate",
+  "classification_ja": "宇宙機・高負荷産業機器の熱制御／冷却サロゲート",
+  "status": "paper_companion_archive_v0_1",
+  "final_locked_status": "PASS-PHASE2E-DELAY-DEGRADE-ROBUSTNESS",
+  "central_claim": "reduced-surrogate feasibility-diagnostic thermal-control architecture, not spacecraft-ready cooling technology",
+  "table3_validation_sequence": [
+    {
+      "phase": "Phase 1",
+      "purpose": "Initial controller comparison under broad stresses",
+      "locked_interpretation": "Damage-limiting but not mission-feasible; all modes failed by mission criteria"
+    },
+    {
+      "phase": "Phase 1T",
+      "purpose": "Failure-reason triage",
+      "locked_interpretation": "Dominant bottleneck was thermal / gradient; storage and power were not primary"
+    },
+    {
+      "phase": "Phase 1R",
+      "purpose": "Resource-frontier sweep",
+      "locked_interpretation": "Still not mission-feasible; resource frontier required"
+    },
+    {
+      "phase": "Phase 1R2",
+      "purpose": "Extended resource sweep and A10-v2",
+      "locked_interpretation": "Provisional high-resource mission-feasible separation"
+    },
+    {
+      "phase": "Phase 1R2C",
+      "purpose": "Higher-sample confirmation",
+      "locked_interpretation": "Confirmed high-resource separation with n=64 per stress/mode/candidate"
+    },
+    {
+      "phase": "Phase 2",
+      "purpose": "Ablation, OOS, delay, degradation",
+      "locked_interpretation": "Baseline and ablation passed; delay/degradation remained weak"
+    },
+    {
+      "phase": "Phase 2D",
+      "purpose": "Delay/degradation redesign",
+      "locked_interpretation": "Delay improved strongly; actuator authority remained near boundary"
+    },
+    {
+      "phase": "Phase 2E",
+      "purpose": "Authority-aware retuning",
+      "locked_interpretation": "PASS-PHASE2E-DELAY-DEGRADE-ROBUSTNESS"
+    }
+  ],
+  "table5_phase2E_manageable_metrics": [
+    {
+      "condition": "Baseline",
+      "controller": "A10-v4-safe",
+      "n": 224,
+      "failure": 0.03125,
+      "cvar0_95": 4.6976e-05,
+      "unsafe_frac": 0.003051,
+      "throughput": 0.964707,
+      "Tc_p95": 0.991673
+    },
+    {
+      "condition": "Baseline",
+      "controller": "Pump+Radiator",
+      "n": 224,
+      "failure": 0.325893,
+      "cvar0_95": 0.943606,
+      "unsafe_frac": 0.099892,
+      "throughput": 1.0,
+      "Tc_p95": 1.3643
+    },
+    {
+      "condition": "Delay 0.5",
+      "controller": "A10-v4-safe",
+      "n": 224,
+      "failure": 0.022321,
+      "cvar0_95": 1.143e-06,
+      "unsafe_frac": 0.001079,
+      "throughput": 0.92899,
+      "Tc_p95": 0.977225
+    },
+    {
+      "condition": "Delay 0.5",
+      "controller": "Pump+Radiator",
+      "n": 224,
+      "failure": 0.727679,
+      "cvar0_95": 1.21172,
+      "unsafe_frac": 0.109479,
+      "throughput": 1.0,
+      "Tc_p95": 1.41325
+    },
+    {
+      "condition": "Delay 1.0",
+      "controller": "A10-v4-balanced",
+      "n": 224,
+      "failure": 0.008929,
+      "cvar0_95": 4.4956e-06,
+      "unsafe_frac": 0.000911,
+      "throughput": 0.898742,
+      "Tc_p95": 0.951084
+    },
+    {
+      "condition": "Delay 1.0",
+      "controller": "Pump+Radiator",
+      "n": 224,
+      "failure": 1.0,
+      "cvar0_95": 1.13645,
+      "unsafe_frac": 0.151283,
+      "throughput": 1.0,
+      "Tc_p95": 1.40856
+    },
+    {
+      "condition": "Actuator 0.8",
+      "controller": "A10-v4-safe",
+      "n": 224,
+      "failure": 0.084821,
+      "cvar0_95": 0.008999,
+      "unsafe_frac": 0.010182,
+      "throughput": 0.895611,
+      "Tc_p95": 1.028617
+    },
+    {
+      "condition": "Actuator 0.8",
+      "controller": "Pump+Radiator",
+      "n": 224,
+      "failure": 0.410714,
+      "cvar0_95": 1.57937,
+      "unsafe_frac": 0.197187,
+      "throughput": 1.0,
+      "Tc_p95": 1.51867
+    },
+    {
+      "condition": "Actuator 0.6",
+      "controller": "A10-v4-safe",
+      "n": 224,
+      "failure": 0.21875,
+      "cvar0_95": 0.060507,
+      "unsafe_frac": 0.025194,
+      "throughput": 0.820892,
+      "Tc_p95": 1.094786
+    },
+    {
+      "condition": "Actuator 0.6",
+      "controller": "Pump+Radiator",
+      "n": 224,
+      "failure": 0.691964,
+      "cvar0_95": 2.43614,
+      "unsafe_frac": 0.496722,
+      "throughput": 1.0,
+      "Tc_p95": 1.65454
+    }
+  ],
+  "table6_oos_frontier_harsh_metrics": [
+    {
+      "family": "Out-of-sample",
+      "controller": "A10-v4-safe",
+      "n": 160,
+      "failure": 0.06875,
+      "cvar0_95": 0.001404,
+      "unsafe_frac": 0.006667,
+      "throughput": 0.94363,
+      "Tc_p95": 1.01098
+    },
+    {
+      "family": "Out-of-sample",
+      "controller": "Pump+Radiator",
+      "n": 160,
+      "failure": 0.99375,
+      "cvar0_95": 1.22333,
+      "unsafe_frac": 0.396042,
+      "throughput": 1.0,
+      "Tc_p95": 1.41117
+    },
+    {
+      "family": "Frontier",
+      "controller": "A10-v4-safe",
+      "n": 32,
+      "failure": 0.34375,
+      "cvar0_95": 0.003098,
+      "unsafe_frac": 0.034609,
+      "throughput": 0.931709,
+      "Tc_p95": 1.03486
+    },
+    {
+      "family": "Frontier",
+      "controller": "Pump+Radiator",
+      "n": 32,
+      "failure": 1.0,
+      "cvar0_95": 1.38997,
+      "unsafe_frac": 0.552839,
+      "throughput": 1.0,
+      "Tc_p95": 1.45624
+    },
+    {
+      "family": "Harsh",
+      "controller": "A10-v4-safe",
+      "n": 32,
+      "failure": 0.96875,
+      "cvar0_95": 0.189089,
+      "unsafe_frac": 0.164453,
+      "throughput": 0.875229,
+      "Tc_p95": 1.20923
+    },
+    {
+      "family": "Harsh",
+      "controller": "Pump+Radiator",
+      "n": 32,
+      "failure": 1.0,
+      "cvar0_95": 4.41355,
+      "unsafe_frac": 0.905052,
+      "throughput": 1.0,
+      "Tc_p95": 1.69657
+    }
+  ],
+  "claim_boundary": "No spacecraft-ready thermal control, thermal-vacuum validation, hardware design, flight-controller readiness, or harsh-combined-stress solution claim."
+}

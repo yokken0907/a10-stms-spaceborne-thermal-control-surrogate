@@ -1,0 +1,9 @@
+phase,purpose,locked_interpretation
+Phase 1,Initial controller comparison under broad stresses,Damage-limiting but not mission-feasible; all modes failed by mission criteria
+Phase 1T,Failure-reason triage,Dominant bottleneck was thermal / gradient; storage and power were not primary
+Phase 1R,Resource-frontier sweep,Still not mission-feasible; resource frontier required
+Phase 1R2,Extended resource sweep and A10-v2,Provisional high-resource mission-feasible separation
+Phase 1R2C,Higher-sample confirmation,Confirmed high-resource separation with n=64 per stress/mode/candidate
+Phase 2,"Ablation, OOS, delay, degradation",Baseline and ablation passed; delay/degradation remained weak
+Phase 2D,Delay/degradation redesign,Delay improved strongly; actuator authority remained near boundary
+Phase 2E,Authority-aware retuning,PASS-PHASE2E-DELAY-DEGRADE-ROBUSTNESS
