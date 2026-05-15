@@ -21,6 +21,16 @@ The objective is not to propose a new heat-transfer mechanism, spacecraft hardwa
 
 A10-STMS is best interpreted as a **feasibility-diagnostic reduced-control architecture**. It diagnoses when thermal-control failure is due to insufficient resources, missing routing/storage/load-shaping structure, delayed sensing, actuator degradation, or harsh combined stress.
 
+## Technical Visual Orientation
+
+For technically interested first-time readers, this repository includes a browser-only technical visual orientation page:
+
+`docs/technical_visual_orientation/index.html`
+
+This page provides a structured overview of A10-STMS, including the project mission variable, reduced-model or surrogate status, structured-prior / constrained-evaluation logic, uncertainty and stress discipline where applicable, evidence hierarchy, recommended repository reading order, and the claim boundary.
+
+The page is intended only as an orientation aid. It does not execute simulations, does not validate the project, does not certify deployment readiness, and does not replace the manuscript, source/configuration materials, supporting archive materials, or independent expert review.
+
 ## What this repository contains
 
 - manuscript PDF,
