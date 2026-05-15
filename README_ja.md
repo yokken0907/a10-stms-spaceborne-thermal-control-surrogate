@@ -28,9 +28,11 @@ A10-STMSは、宇宙機用の完成済み冷却技術ではない。
 
 `docs/technical_visual_orientation/index.html`
 
-このページは、A10-STMS の構造、すなわち project mission variable、reduced-model / surrogate としての位置づけ、structured-prior / constrained-evaluation logic、不確実性・stress discipline、evidence hierarchy、リポジトリ閲覧順、および claim boundary を短く整理するための補助資料です。
+このページは、A10-STMS spaceborne / high-load thermal-control surrogate の構造をプロジェクト固有の観点から整理する補助資料です。本リポジトリにおける mission variable は一般的な performance や generic stability ではなく、radiative loading、storage/buffer saturation、power limitation、sensing delay、actuator-authority constraints の下で modeled thermal margin と mission throughput が維持されるか、という thermal feasibility preservation です。
 
-このページは説明補助であり、simulation を実行するものではありません。プロジェクトの妥当性、実装可能性、商用展開、安全認証、または実験・臨床・産業上の検証を示すものでもなく、論文本体、source/configuration materials、supporting archive materials、または専門家による独立評価を置き換えるものでもありません。
+また、このページでは reduced thermal-control surrogate state channels、separated-barrier hybrid-control interpretation、combined thermal-stress diagnosis、evidence hierarchy、リポジトリ閲覧順、および claim boundary を短く整理しています。主要な図解セクションには replay control を付けており、静的テンプレートではなく診断ロジックを段階的に確認できます。
+
+このページは説明補助であり、thermal-control simulation を実行するものではありません。宇宙機サブシステム、産業用冷却製品、radiator / thermal-strap / hardware design、operational guidance、安全認証、flight hardware、または実機検証を示すものでもなく、論文本体、source materials、figures、または専門家による独立評価を置き換えるものでもありません。
 
 ## 含まれるもの
 

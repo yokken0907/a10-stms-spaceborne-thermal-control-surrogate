@@ -27,9 +27,11 @@ For technically interested first-time readers, this repository includes a browse
 
 `docs/technical_visual_orientation/index.html`
 
-This page provides a structured overview of A10-STMS, including the project mission variable, reduced-model or surrogate status, structured-prior / constrained-evaluation logic, uncertainty and stress discipline where applicable, evidence hierarchy, recommended repository reading order, and the claim boundary.
+This page provides a project-specific overview of the A10-STMS spaceborne / high-load thermal-control surrogate logic. In this repository, the mission variable is not generic performance or generic stability; it is thermal feasibility preservation, meaning that modeled thermal margin and mission throughput remain viable under radiative loading, storage/buffer saturation, power limitation, sensing delay, and actuator-authority constraints.
 
-The page is intended only as an orientation aid. It does not execute simulations, does not validate the project, does not certify deployment readiness, and does not replace the manuscript, source/configuration materials, supporting archive materials, or independent expert review.
+The page also summarizes reduced thermal-control surrogate state channels, separated-barrier hybrid-control interpretation, combined thermal-stress diagnosis, evidence hierarchy, repository reading order, and the claim boundary. All major visual sections include replay controls so that readers can step through the diagnostic logic rather than viewing a static template.
+
+The page is intended only as an orientation aid. It does not run thermal-control simulations, does not validate a spacecraft thermal subsystem or industrial cooling product, does not provide radiator, thermal-strap, hardware, operational, or safety guidance, does not certify flight hardware or safety readiness, and does not replace the manuscript, source materials, figures, or independent expert review.
 
 ## What this repository contains
 
