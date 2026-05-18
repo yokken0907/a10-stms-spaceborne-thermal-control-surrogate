@@ -1,0 +1,73 @@
+{
+  "package": "a10_stms_github_additions",
+  "created_utc": "2026-05-18T15:12:07.856344+00:00",
+  "intended_use": "Additive Markdown files for the A10-STMS GitHub paper companion repository.",
+  "claim_boundary": "Nondimensional reduced-surrogate thermal-control audit only; no spacecraft-ready cooling, thermal-vacuum validation, flight controller, certified safety, hardware design, new heat-transfer mechanism, or harsh-combined-stress solution claim.",
+  "files": [
+    {
+      "path": "ADD_NEW_FILES_MANIFEST.csv",
+      "bytes": 1136,
+      "sha256": "725e82c2ad43d7fae0ce6ebdf6373f48ee2d9c982e8d75e568bc8a644e1c2554"
+    },
+    {
+      "path": "ADD_NEW_FILES_MANIFEST.json",
+      "bytes": 2285,
+      "sha256": "c928be2c038cc0f8cb0222c39dfd7a6e4cbb953f638b52f208af2d1f997c711d"
+    },
+    {
+      "path": "FIELD_VALUE_en.md",
+      "bytes": 4667,
+      "sha256": "021fe28427345233e4d8b75c3b30ebe5389625b7fc920ca94daa0c8a8a25db0e"
+    },
+    {
+      "path": "FIELD_VALUE_ja.md",
+      "bytes": 4996,
+      "sha256": "106e12530ddda00b1b30ca1cb81071e237fad5c81a84f4013e211b3e6445e558"
+    },
+    {
+      "path": "INDUSTRY_RELEVANCE_ja.md",
+      "bytes": 4058,
+      "sha256": "2639c0df2c31771062f6fa4fb0dd88a874d898cc6ff8f710e06d4ea94b9f37b1"
+    },
+    {
+      "path": "NEXT_VALIDATION_PLAN.md",
+      "bytes": 5534,
+      "sha256": "ae5867a49e98c980ccfe1cc9906cac36bc7394d4f8f5e18c72cf2c2f09c5f9ea"
+    },
+    {
+      "path": "README_INSERT_BLOCKS.md",
+      "bytes": 2852,
+      "sha256": "21c894c1b094301770b84c7fecf39ab656c24d80583e263438bb20c926e05461"
+    },
+    {
+      "path": "REVIEWER_START_HERE.md",
+      "bytes": 5072,
+      "sha256": "0d7ebe7a8f9605054174acbdea77b3f66621fedd1b9dfedf36f470e66e90bd7d"
+    },
+    {
+      "path": "docs/jxiv/JXIV_V3X_REVISION_POLICY_ja.md",
+      "bytes": 4339,
+      "sha256": "d997eb24787a595aee805d58e97760b8038f507724340f2f9809e6fa7c0cbcd6"
+    },
+    {
+      "path": "docs/outreach/INPIT_ONE_PAGE_BRIEF_ja.md",
+      "bytes": 3265,
+      "sha256": "d2838f6c1d25dfd5cfb787d148ade329415b6b70440f975f780e648ce480c133"
+    },
+    {
+      "path": "docs/validation/CLAIM_TO_EVIDENCE_MAP.md",
+      "bytes": 3829,
+      "sha256": "dee20ea09602d3ab3c9288c14335eb24bbfa1e6e0aeee5f5afbfbaa48108d066"
+    },
+    {
+      "path": "docs/validation/SAFE_WORDING_TABLE_ja_en.md",
+      "bytes": 2834,
+      "sha256": "3f4df757d3e5e7207653a6693c731d09b23f39e560799457f0fc737c46330459"
+    },
+    {
+      "path": "docs/validation/VALIDATION_MATRIX.md",
+      "bytes": 2076,
+      "sha256": "f2b3a06ede6fa36fa6ad82b390379caa852497d9045bb26b518cb82eb7a2fc79"
+    }
+  ]
+}
